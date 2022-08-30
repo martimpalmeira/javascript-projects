@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgb(245, 155, 46);
+    padding: 30px;
+    text-align: center;
+}
+
+h1, h2{
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+p{
+    margin-bottom: 30px;
+}
+
+.btn-item{
+    height: 50px;
+    width: 140px;
+    background-color: transparent;
+    border-radius: 4px;
+    border: solid 1px white;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.btn-item:hover{
+    background-color: white;
+    color: rgb(245, 155, 46);
+}
+
